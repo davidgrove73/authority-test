@@ -53,5 +53,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'jettywrapper'
 end
-
-gem 'authority', :path=>'/home/dgj/RubymineProjects/authority'
+gem 'better_errors'
+gem 'authority', :path=>'/home/rails/RubymineProjects/authority'

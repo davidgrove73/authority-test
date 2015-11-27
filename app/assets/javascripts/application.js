@@ -16,4 +16,6 @@
 //
 // Required by Blacklight
 //= require blacklight/blacklight
+//= require authority/viaf/jquery.viafauto.extended.js
+//= require authority/viaf/viaf_util.js
 //= require_tree .
