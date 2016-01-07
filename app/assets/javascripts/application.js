@@ -12,9 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require turbolinks
 //
 // Required by Blacklight
 //= require blacklight/blacklight
-//= require authority
+
+// Required by Authority gem
+//= require authority/viaf/jquery.viafauto.js
+//= require authority/viaf/jquery.viafauto.extended.js
 //= require_tree .
