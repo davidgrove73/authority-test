@@ -23,6 +23,6 @@
 //= require authority/viaf/jquery.viafauto.extended.js
 //= require authority/viaf/viaf_util.js
 //= require authority/typeahead.bundle.js
-//= require authority/authority_typeahed.js
+//= require authority/authority_typeahead.js
 
 //= require_tree .

@@ -1,0 +1,17 @@
+<%= simple_form_for(@book, html: { novalidate: true },  defaults: { wrapper_html: { class: 'form-group' },
+                                                                    input_html: { class: 'form-control' } }
+    ) do |f| %>
+  <div>
+  <%= render partial: 'relators/form', locals: { builder: f, id: 'work_agent', delete_label: t('.delete_creator') } %>
+
+  <div>
+      <a class="btn btn-sm btn-success" href="#" data-function="clone-fields" data-selector=".relator_fields:last">
+        <span class="glyphicon glyphicon-plus"></span>
+        <%= t('.add_author') %>
+      </a>
+  </div>
+  </div>
+  <div class="actions col-sm-offset-9">
+    <%= f.submit 'Gem værk',  class: 'btn btn-lg btn-success', data: {disable_with: "Gemmer..."}%>
+    </div>
+<% end %>

@@ -55,4 +55,6 @@ group :development, :test do
   gem 'jettywrapper'
 end
 gem 'better_errors'
+gem 'simple_form'
+
 gem 'authority', :path=>'/home/dgj/RubymineProjects/authority'
